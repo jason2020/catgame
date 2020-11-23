@@ -1,11 +1,11 @@
 #game {
     width: 80vw;
     height: 60vh;
-    background: #FBF4EC;
+    background: #FFD100;
     border-radius: 10px;
     position: relative;
     margin: 10vh auto;
-    border: 1px solid #000;
+    border: 1.5vw solid #2774AE;
 }
 
 #player {

@@ -1,6 +1,5 @@
 var pane = $('#game'),
     box = $('#player'),
-    // cat = $("#testCat"),
     w = pane.width() - box.width(),
     score = 0,
     d = {},
@@ -42,13 +41,13 @@ function overlaps(a, b) {
 
 setInterval(function() {
     spawnCat();
-}, 2000)
+}, 1000)
 
 function spawnCat() {
     var x = Math.random()*100;
     var y = Math.random()*100;
     pane.append(`<div class="cat" style="top: ${y}%; left: ${x}%;" >
-        <img class="catPic" src="cat.png" alt="cat">
+        <img class="catPic" src="cat2.png" alt="cat">
         </div>`);
 }
 
