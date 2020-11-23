@@ -2,17 +2,16 @@
     width: 80vw;
     height: 60vh;
     background: #FBF4EC;
-    border: 5px solid #988282;
     border-radius: 10px;
     position: relative;
     margin: 10vh auto;
+    border: 1px solid #000;
 }
 
 #player {
     position: absolute;
     width: 10%;
     height: 20%;
-    border: 1px solid #000;
 }
 
 #playerPic {
@@ -24,7 +23,6 @@
     position: absolute;
     width: 10%;
     height: 20%;
-    border: 1px solid #000;
 }
 
 .catPic {
